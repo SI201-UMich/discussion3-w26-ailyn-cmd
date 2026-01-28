@@ -13,19 +13,15 @@ class Rectangle():
         return "A rectangle with width {} and height {}".format(self.width, self.height)
 
     # Create the "area_calculator" method
-
-    # YOUR CODE HERE
-
+    def area_calculator(self):
+        return self.width * self.height
 
 
     # Create the "__eq__" method
     # 
     # Returns a boolean value
 
-    # YOUR CODE HERE
 
-
-    
 
 
 def main():
